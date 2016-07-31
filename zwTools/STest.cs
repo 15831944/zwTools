@@ -12,7 +12,7 @@ namespace zwTools
 {
     public class STest
     {
-        [CommandMethod("ZWSTE")]
+        [CommandMethod("ZT")]
         public void STestEdit()
         {
             FormSTextEdit form = new FormSTextEdit();

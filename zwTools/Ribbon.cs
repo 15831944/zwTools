@@ -20,12 +20,12 @@ namespace zwTools
             RibbonTab rt = RibbonTab("zwTools", "1");
 
             RibbonPanel rpHelp = RibbonPanel("帮助");
-            RibbonButton rbAbout = RibbonButton("关于", "ZWABOUT");
+            RibbonButton rbAbout = RibbonButton("关于", "ZAB");
 
             rpHelp.Source.Items.Add(rbAbout);
 
             RibbonPanel rpText = RibbonPanel("文字处理");
-            RibbonButton rbSText = RibbonButton("单行文字处理", "ZWSTE");
+            RibbonButton rbSText = RibbonButton("单行文字处理", "ZT");
 
             rpText.Source.Items.Add(rbSText);
 
