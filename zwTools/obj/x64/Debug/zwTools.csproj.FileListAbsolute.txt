@@ -1,0 +1,7 @@
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\bin\x64\Debug\zwTools.dll
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\bin\x64\Debug\zwTools.pdb
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.dll
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.pdb
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.FormAbout.resources
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.csproj.GenerateResource.Cache

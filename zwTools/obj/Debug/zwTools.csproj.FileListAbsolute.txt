@@ -1,0 +1,16 @@
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\bin\Debug\zwTools.dll
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\bin\Debug\zwTools.pdb
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.dll
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.pdb
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.FormAbout.resources
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.csproj.GenerateResource.Cache
+C:\Users\zhang\Documents\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.FormSTextEdit.resources
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.csprojResolveAssemblyReference.cache
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.FormAbout.resources
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.FormSTextEdit.resources
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.csproj.GenerateResource.Cache
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.dll
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\Debug\zwTools.pdb
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\bin\Debug\zwTools.dll
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\bin\Debug\zwTools.pdb
