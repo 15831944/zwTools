@@ -7,12 +7,12 @@ using Autodesk.AutoCAD.Runtime;
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.EditorInput;
 
-[assembly: CommandClass(typeof(zwTools.Help))]
+[assembly: CommandClass(typeof(zwTools.About))]
 namespace zwTools
 {
-    public class Help
+    public class About
     {
-        [CommandMethod("ZWABOUT")]
+        [CommandMethod("ZAB")]
         public void ABOUT()
         {
             FormAbout form = new FormAbout();
