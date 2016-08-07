@@ -5,6 +5,7 @@ using System.Text;
 
 using Autodesk.AutoCAD.Runtime;
 using Autodesk.AutoCAD.ApplicationServices;
+using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
 
 [assembly: CommandClass(typeof(zwTools.STest))]

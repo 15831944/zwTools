@@ -12,6 +12,29 @@ namespace zwTools
 {
     public class Selection
     {
+        /// <summary>
+        /// 提示用户选择单个实体
+        /// </summary>
+        /// <param name="word">选择提示</param>
+        /// <returns>实体对象</returns>
+        public static Entity SelectS(string word)
+        {
+            Document doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument;
+            Database db = doc.Database;
+            Editor ed = doc.Editor;
+            Entity entity = null;
+            PromptEntityResult ent = ed.GetEntity(word);
+            if (ent.Status == PromptStatus.OK)
+            {
+                using (Transaction transaction = db.TransactionManager.StartTransaction())
+                {
+                    entity = (Entity)transaction.GetObject(ent.ObjectId, OpenMode.ForWrite, true);
+                    transaction.Commit();
+                }
+            }
+            return entity;
+        }
+
         public static DBObjectCollection GetSelection(FilterType[] tps)
         {
             Document doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument;
