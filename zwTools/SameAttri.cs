@@ -22,6 +22,14 @@ namespace zwTools
                 ed.WriteMessage("\n 你选择的对象ObjectId:" + ent.ObjectId.ToString());
             else
                 return;
+
+            //Database db = HostApplicationServices.WorkingDatabase;//打开当前文档的数据库
+            //using (Transaction transaction = db.TransactionManager.StartTransaction())
+            //{
+            //    BlockReference block = (BlockReference)transaction.GetObject(ent.ObjectId, OpenMode.ForWrite, true);
+            //    AttributeCollection attri = block.AttributeCollection;
+            //    transaction.Commit();
+            //}
         }
     }
 }
