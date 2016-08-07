@@ -35,6 +35,35 @@ namespace zwTools
             return entity;
         }
 
+        /// <summary>
+        /// 过滤选择单个实体
+        /// </summary>
+        /// <param name="optionsWord">过滤提示</param>
+        /// <param name="optionsMessage">错误提示</param>
+        /// <param name="word">选择提示</param>
+        /// <param name="tp">过滤类型</param>
+        /// <param name="bo">true表示不包括其基类， false则表示包括其基类</param>
+        /// <returns></returns>
+        public static Entity SelectSFilter(string optionsWord, string optionsMessage, string word, Type tp, bool bo)
+        {
+            Database db = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument.Database;
+            Editor ed = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument.Editor;
+            Entity entity = null;
+            PromptEntityOptions entops = new PromptEntityOptions(optionsWord);
+            entops.SetRejectMessage(optionsMessage);
+            entops.AddAllowedClass(tp, bo); //此处的true表示不包括其基类， false则表示包括其基类
+            PromptEntityResult ent = ed.GetEntity(entops);
+            if (ent.Status == PromptStatus.OK)
+            {
+                using (Transaction transaction = db.TransactionManager.StartTransaction())
+                {
+                    entity = (Entity)transaction.GetObject(ent.ObjectId, OpenMode.ForWrite, true);
+                    transaction.Commit();
+                }
+            }
+            return entity;
+        }
+
         public static DBObjectCollection GetSelection(FilterType[] tps)
         {
             Document doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument;

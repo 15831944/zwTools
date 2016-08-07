@@ -17,7 +17,7 @@ namespace zwTools
         public void Same()
         {
             Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
-            Entity ent = Selection.SelectS("\n 选择对象");
+            Entity ent = Selection.SelectSFilter("请选择块", "选择错误！", "请选择块", typeof(BlockReference),true);
             if (ent != null)
                 ed.WriteMessage("\n 你选择的对象ObjectId:" + ent.ObjectId.ToString());
             else
