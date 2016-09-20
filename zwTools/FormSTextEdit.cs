@@ -78,6 +78,7 @@ namespace zwTools
                     transaction.Commit();
                 }
             }
+            this.Close();
         }
 
         private void tbLoc_KeyPress(object sender, KeyPressEventArgs e)
