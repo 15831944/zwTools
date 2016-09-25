@@ -29,7 +29,14 @@ namespace zwTools
 
             rpText.Source.Items.Add(rbSText);
 
+            RibbonPanel rpEdit = RibbonPanel("修改");
+            RibbonButton rbBlockP = RibbonButton("批量改块属性", "ZB");
+
+            rpEdit.Source.Items.Add(rbBlockP);
+
+
             rt.Panels.Add(rpText);
+            rt.Panels.Add(rpEdit);
             rt.Panels.Add(rpHelp);
             
 

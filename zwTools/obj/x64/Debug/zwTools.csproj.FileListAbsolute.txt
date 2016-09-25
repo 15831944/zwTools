@@ -13,3 +13,4 @@ C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.Fo
 C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.csproj.GenerateResource.Cache
 C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.dll
 C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.pdb
+C:\Users\zhang\Documents\GitHub\AutoCAD\zwTools\zwTools\obj\x64\Debug\zwTools.btnSel.resources

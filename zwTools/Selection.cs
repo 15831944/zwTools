@@ -108,7 +108,7 @@ namespace zwTools
     /// </summary>
     public enum FilterType
     {
-        Curve, Dimension, Polyline, BlockRef, Circle, Line, Arc, Text, MText
+        Curve, Dimension, Polyline, BlockRef, Circle, Line, Arc, Text, MText, Insert
     }
 
    
